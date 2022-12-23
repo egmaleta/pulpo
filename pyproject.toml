@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.9"
 pulp = "^2.7.0"
 
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.0"
 
 [build-system]
 requires = ["poetry-core"]
